@@ -2,7 +2,7 @@
 
 This is the Github repo of Preben's norwegian community!
 
-## The software
+## The "external" software
 
 The software consists in a [Wordpress landing website](https://norwegiancommunity.com), that presents the content of the language courses and how it works. After that, there is the main [learning website](learn.prebenorwegian.com) that uses LearnWorlds as a service.
 
@@ -27,3 +27,14 @@ The repositories are:
 * __[pnc-webapp](https://github.com/Preben-Norwegian-Community/pnc-webapp)__: The APIs of the project. Made with **Vue.js** and **Vuetify**.
 * __[pnc-webcomponents](https://github.com/Preben-Norwegian-Community/pnc-webcomponents)__: The webcomponents shown on LearnWorlds. Made with **Vue.js** and **Vuetify**.
 * __[pnc-learnworlds-snippets](https://github.com/Preben-Norwegian-Community/pnc-learnworlds-snippets)__: The snippets that are added to LearnWorlds custom code.
+* __[pnc-deploy](https://github.com/Preben-Norwegian-Community/pnc-deploy)__: The docker compose and .env.example files for the deploy
+
+### How was it deployed
+
+* __Mongo Atlas__ MongoDB database for the data
+* __[Npm organization](https://www.npmjs.com/package/@prebenorwegian/sdk)__ for modules such as the api sdk
+* __Digital ocean__ for hosting the software
+* __Docker and Portainer__ for the deploy of the containers
+* [__Dockerhub__](https://hub.docker.com/u/prebenorwegian) for hosting the docker images
+
+Almost every account is connected to the prebenorwegian@gmail.com email address
